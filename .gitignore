@@ -2,6 +2,7 @@
 *.dcu
 *.exe
 !**/bin/Warehouse.exe
+!tasks/MinProductDist5/MinProductDist5.exe
 *.dll
 *.bpl
 *.dcp
