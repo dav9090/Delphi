@@ -1,0 +1,12 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+
+[*.{pas,dpr,dfm,dpk,inc}]
+charset = windows-1251
+
+[*.{md,sql}]
+charset = utf-8-bom

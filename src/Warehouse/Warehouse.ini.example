@@ -1,0 +1,8 @@
+[Database]
+; Server example: . or .\SQLEXPRESS
+Server=.
+Database=WarehouseDB
+; Auth=Windows or SQL
+Auth=Windows
+User=sa
+Password=

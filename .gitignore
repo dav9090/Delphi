@@ -1,0 +1,42 @@
+# Delphi / build
+*.dcu
+*.exe
+!**/bin/Warehouse.exe
+*.dll
+*.bpl
+*.dcp
+*.map
+*.tds
+*.~*
+*.bak
+*.identcache
+*.local
+*.skincfg
+*.stat
+__history/
+**/bin/*
+!**/bin/Warehouse.exe
+!**/bin/Warehouse.ini
+Win32/
+Win64/
+*.dsk
+*.~dsk
+
+# Local app config (keep example + runtime ini next to exe)
+**/Warehouse.ini
+!**/Warehouse.ini.example
+!**/bin/Warehouse.ini
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.vs/
+.vscode/
+*.swp
+
+# local secrets / install logs
+**/sa-password.txt
+**/Sql2008R2Install/
+
+# temp helper scripts
+tools/_*.py
